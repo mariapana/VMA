@@ -1,0 +1,79 @@
+**Copyright Maria Pană 315CA 2022-2023 (maria.pana4@gmail.com)**
+
+-------------------------------------------------------------------------------
+# SD Homework 1: Virtual Memory Allocator
+-------------------------------------------------------------------------------
+
+## Description:
+
+The aim of the program is to emulate the functionality of a virtual memory
+allocator using two nested and generic doubly linked lists.
+
+Considering an imaginary arena, the virtual memory is represented by a primary
+doubly linked list that contains memory blocks. Each block has a set of
+miniblocks stored in a secondary doubly linked list. The data being stored in
+the virtual memory will be held in miniblocks starting from the desired address.
+
+<br>
+
+## Commands and their parameters (How to use):
+
+`ALLOC_ARENA <arena_size>`: create the VMA arena
+
+`DEALLOC_ARENA`: free arena along with all allocated resources (blocks and
+miniblocks) and close the program
+
+`ALLOC_BLOCK <address> <block_size>`: allocate a new block with a specific
+size to the arena, starting from a specific address
+
+`FREE_BLOCK <adress>`: free the block at the given address along with its
+list of miniblocks
+
+`READ <address> <size>`: print <size> bytes, starting from the given address
+
+`WRITE <adress> <size> <data>`: store <size> bytes of data, starting from the
+given address (in allocated memory area)
+  
+`PMAP`: your everyday pmap function
+  
+`MPROTECT <adress> <new_permission>`: change permissions at the given address
+(default: RW-)
+
+For detailed functionality, check the comments in the source code.
+
+<br>
+
+## Implementation specifics. Main challenges:
+* **Genericity**: to ensure it, the program uses just one data structure for
+both block and miniblock doubly linked lists.
+
+* **Block allocation**: by far the most difficult aspect of the program, block
+allocation implies a handful of special cases that had to be treated separately.
+
+* **Memory leaks**: the program ensures that by the end of program execution,
+all allocated resources will be freed.
+
+<br>
+
+## Comments:
+
+* Realising how many block allocation scenarios there are was initially 
+intimidating. However, once I started drawing and visualising cases that came
+to mind, the whole idea got shape and I could then structure it into code. It
+also made things easier to imagine down the road for the other functions,
+since I already had a picture in mind of how things worked.
+  
+* Memory leaks were also quite "fun". At some point, I was forgetting to free
+the block and miniblock structures themselves and kept running into memory leaks
+without knowing why. Needless to say, valgrind and gdb became my best friends :)
+
+* Overall, I really enjoyed working on the VMA. The topic was extremely
+interesting to me and I had the opportunity to work with linked lists in an
+applied manner, thus gaining a better understanding of their functionality.
+
+<br>
+  
+## Resources. Further reading:
+
+1. [Homework statement](https://ocw.cs.pub.ro/courses/sd-ca/teme/tema1-2023)
+2. [Definition: Virtual Memory](https://www.techtarget.com/searchstorage/definition/virtual-memory)

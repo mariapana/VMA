@@ -1,0 +1,15 @@
+==5178== Memcheck, a memory error detector
+==5178== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5178== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==5178== Command: /home/mia/University/SDA/TEMA1_VMA/vma
+==5178== Parent PID: 5177
+==5178== 
+==5178== 
+==5178== HEAP SUMMARY:
+==5178==     in use at exit: 0 bytes in 0 blocks
+==5178==   total heap usage: 12 allocs, 12 frees, 8,414 bytes allocated
+==5178== 
+==5178== All heap blocks were freed -- no leaks are possible
+==5178== 
+==5178== For lists of detected and suppressed errors, rerun with: -s
+==5178== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

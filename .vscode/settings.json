@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "locators.h": "c",
+        "vma.h": "c"
+    }
+}

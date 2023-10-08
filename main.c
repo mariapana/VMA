@@ -1,6 +1,7 @@
 #include "vma.h"
+#include "menu.h"
 
 int main(void)
 {
-	return 0;
+	return menu();
 }

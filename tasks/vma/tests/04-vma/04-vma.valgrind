@@ -1,0 +1,15 @@
+==5046== Memcheck, a memory error detector
+==5046== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5046== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==5046== Command: /home/mia/University/SDA/TEMA1_VMA/vma
+==5046== Parent PID: 5045
+==5046== 
+==5046== 
+==5046== HEAP SUMMARY:
+==5046==     in use at exit: 0 bytes in 0 blocks
+==5046==   total heap usage: 15 allocs, 15 frees, 8,502 bytes allocated
+==5046== 
+==5046== All heap blocks were freed -- no leaks are possible
+==5046== 
+==5046== For lists of detected and suppressed errors, rerun with: -s
+==5046== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

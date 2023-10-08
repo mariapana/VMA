@@ -1,0 +1,697 @@
+./tasks/config.json
++++++ check_deps ...
+system               - Linux
+	 config: Linux mia-ZenBook-UX425QA-UM425QA 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+gcc                  - installed
+	version: gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0
+python3              - installed
+	version: Python 3.10.6
+----- check_deps
+
++++++ make_build ...
+----- make_build
++++++ running all tasks
+
+			(please enable sound)
+
+
+
+
+	+++++ running task vma (100p) ...
+
+		+++++ running test 00-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.002145
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.023047
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.346588
+		----- running test 00-vma - grade 2/2
+
+		+++++ running test 01-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000992
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021582
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.349798
+		----- running test 01-vma - grade 1/1
+
+		+++++ running test 02-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.001050
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.022292
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.340942
+		----- running test 02-vma - grade 1/1
+
+		+++++ running test 03-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.001250
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.022576
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.346211
+		----- running test 03-vma - grade 1/1
+
+		+++++ running test 04-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.001709
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020761
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.343980
+		----- running test 04-vma - grade 1/1
+
+		+++++ running test 05-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000973
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020286
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.345061
+		----- running test 05-vma - grade 2/2
+
+		+++++ running test 06-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.001474
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020786
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.352515
+		----- running test 06-vma - grade 2/2
+
+		+++++ running test 07-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000868
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.019335
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.325093
+		----- running test 07-vma - grade 2/2
+
+		+++++ running test 08-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000824
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021685
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.328364
+		----- running test 08-vma - grade 2/2
+
+		+++++ running test 09-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000860
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.019521
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.326996
+		----- running test 09-vma - grade 2/2
+
+		+++++ running test 10-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000843
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020515
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.329023
+		----- running test 10-vma - grade 2/2
+
+		+++++ running test 11-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000833
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020954
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.328772
+		----- running test 11-vma - grade 2/2
+
+		+++++ running test 12-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000776
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021291
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.327525
+		----- running test 12-vma - grade 2/2
+
+		+++++ running test 13-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000819
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020337
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.329589
+		----- running test 13-vma - grade 2/2
+
+		+++++ running test 14-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000844
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021803
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.328449
+		----- running test 14-vma - grade 2/2
+
+		+++++ running test 15-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000870
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020503
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.317547
+		----- running test 15-vma - grade 2/2
+
+		+++++ running test 16-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000823
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020838
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.319429
+		----- running test 16-vma - grade 2/2
+
+		+++++ running test 17-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000812
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020775
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.321738
+		----- running test 17-vma - grade 2/2
+
+		+++++ running test 18-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000958
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.022034
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.333164
+		----- running test 18-vma - grade 2/2
+
+		+++++ running test 19-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000850
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020963
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.332723
+		----- running test 19-vma - grade 2/2
+
+		+++++ running test 20-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000831
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020914
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.320590
+		----- running test 20-vma - grade 2/2
+
+		+++++ running test 21-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000842
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.019359
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.336879
+		----- running test 21-vma - grade 2/2
+
+		+++++ running test 22-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000843
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020540
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.320724
+		----- running test 22-vma - grade 2/2
+
+		+++++ running test 23-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000819
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021012
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.322623
+		----- running test 23-vma - grade 2/2
+
+		+++++ running test 24-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000795
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021373
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.328559
+		----- running test 24-vma - grade 2/2
+
+		+++++ running test 25-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000860
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.019643
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.324572
+		----- running test 25-vma - grade 2/2
+
+		+++++ running test 26-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000831
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021661
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.329783
+		----- running test 26-vma - grade 2/2
+
+		+++++ running test 27-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000813
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020318
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.321451
+		----- running test 27-vma - grade 2/2
+
+		+++++ running test 28-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000938
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021239
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.325769
+		----- running test 28-vma - grade 2/2
+
+		+++++ running test 29-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000926
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021959
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.326622
+		----- running test 29-vma - grade 2/2
+
+		+++++ running test 30-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000817
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020275
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.325552
+		----- running test 30-vma - grade 2/2
+
+		+++++ running test 31-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000863
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020852
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.325167
+		----- running test 31-vma - grade 2/2
+
+		+++++ running test 32-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000820
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020022
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.330937
+		----- running test 32-vma - grade 2/2
+
+		+++++ running test 33-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000869
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020220
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.331686
+		----- running test 33-vma - grade 2/2
+
+		+++++ running test 34-vma
+			running test       ...
+[F			running test       - UPS: exit code = -11
+				stage time: 0:00:00.060620
+		----- running test 34-vma - grade 0/2
+
+		+++++ running test 35-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.192480
+			running check      ...
+[F			running check      - WA: wrong number of lines: 5012 vs 5008
+				stage time: 0:00:00.022512
+		----- running test 35-vma - grade 0/2
+
+		+++++ running test 36-vma
+			running test       ...
+[F			running test       - UPS: exit code = -11
+				stage time: 0:00:00.103626
+		----- running test 36-vma - grade 0/2
+
+		+++++ running test 37-vma
+			running test       ...
+[F			running test       - UPS: exit code = -11
+				stage time: 0:00:00.612926
+		----- running test 37-vma - grade 0/2
+
+		+++++ running test 38-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.026463
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.068082
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:01.191241
+		----- running test 38-vma - grade 2/2
+
+		+++++ running test 39-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.035153
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.082529
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:01.455956
+		----- running test 39-vma - grade 2/2
+
+		+++++ running test 40-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.070613
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.130236
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:02.329786
+		----- running test 40-vma - grade 2/2
+
+		+++++ running test 41-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.072502
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.147136
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:02.580932
+		----- running test 41-vma - grade 2/2
+
+		+++++ running test 42-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.002091
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021437
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.338535
+		----- running test 42-vma - grade 2/2
+
+		+++++ running test 43-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000922
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020749
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.339084
+		----- running test 43-vma - grade 2/2
+
+		+++++ running test 44-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000929
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021467
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.351147
+		----- running test 44-vma - grade 2/2
+
+		+++++ running test 45-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000796
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.022180
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.331776
+		----- running test 45-vma - grade 2/2
+
+		+++++ running test 46-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000830
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.022904
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.333064
+		----- running test 46-vma - grade 3/3
+
+		+++++ running test 47-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.001259
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.020437
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.332421
+		----- running test 47-vma - grade 3/3
+
+		+++++ running test 48-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000823
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021494
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.333806
+		----- running test 48-vma - grade 3/3
+
+		+++++ running test 49-vma
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.000944
+			running check      ...
+[F			running check      - OK
+				stage time: 0:00:00.021759
+			running valgrind   ...
+[F			running valgrind   - OK
+				stage time: 0:00:00.336673
+		----- running test 49-vma - grade 3/3
+
+	----- running task vma - grade 92/100
+
+----- running all tasks
+
++++++ running check_style (10p)...
+./menu.c:4: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./menu.c:5: ERROR:CODE_INDENT: code indent should use tabs where possible
+./menu.c:5: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./menu.c:6: ERROR:CODE_INDENT: code indent should use tabs where possible
+./menu.c:6: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./menu.c:7: ERROR:CODE_INDENT: code indent should use tabs where possible
+./menu.c:7: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./menu.c:8: ERROR:CODE_INDENT: code indent should use tabs where possible
+./menu.c:8: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./menu.c:9: ERROR:CODE_INDENT: code indent should use tabs where possible
+./menu.c:9: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./menu.c:10: ERROR:CODE_INDENT: code indent should use tabs where possible
+./menu.c:10: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./menu.c:12: ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+./menu.c:15: ERROR:CODE_INDENT: code indent should use tabs where possible
+./menu.c:15: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./menu.c:16: ERROR:CODE_INDENT: code indent should use tabs where possible
+./menu.c:16: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./menu.c:17: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./menu.c:20: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./menu.c:22: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./menu.c:80: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./menu.c:82: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./menu.c:129: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./vma.c:117: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./vma.c:246: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./vma.c:257: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./vma.c:281: CHECK:LONG_LINE: line length of 84 exceeds 80 columns
+./vma.c:298: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./vma.c:322: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./vma.c:337: CHECK:LONG_LINE: line length of 101 exceeds 80 columns
+./vma.c:372: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./vma.c:477: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./vma.c:484: CHECK:SPACING: No space is necessary after a cast
+./menu.h:7: ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+./ll.c:52: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./ll.c:53: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:53: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./ll.c:55: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./ll.c:55: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./ll.c:57: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./ll.c:58: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:58: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:58: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./ll.c:59: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:59: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:59: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./ll.c:60: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:60: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:60: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./ll.c:61: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./ll.c:61: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./ll.c:63: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:63: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:64: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:64: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:65: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:65: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:67: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:67: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:67: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./ll.c:68: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:68: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:69: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:69: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:70: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:70: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:71: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:71: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:72: ERROR:CODE_INDENT: code indent should use tabs where possible
+./ll.c:72: WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+./ll.c:74: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./ll.c:76: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./ll.c:86: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./ll.c:116: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+
+----- running check_style - grade 0/10
+
++++++ running check_readme (10p) ...
+Found 'README.md' ... Final points are given after manual grading!
+----- running check_readme - grade 10/10
+
++++++ make_clean ...
+----- make_clean
+
+			Final grade: 102
+TOTAL: 102/100
+
+			(please enable sound)
+
+
+Total execution time: 0:00:36.025733
